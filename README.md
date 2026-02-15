@@ -87,12 +87,18 @@ Script:
 In Treeia-Token:
 
 → a pure PUA token stream derived from the Treeia binary —
-no words, no punctuation, only symbols and raw values.
-```text
-⟦S1⟧ ⟦P0⟧ ⟦Tfloat⟧ 100 ⟦P1⟧ ⟦Tfloat⟧ 200
-```
 
----
+| Token | Signification (d’après la table STS) |
+|-------|--------------------------------------|
+| ⟦S1⟧  | struct Coord (ID 1) |
+| ⟦P0⟧  | premier paramètre de Coord (x) |
+| ⟦Tfloat⟧ | le type de la valeur est float |
+| 100   | valeur brute du float (little‑endian) |
+| ⟦P1⟧  | second paramètre de Coord (y) |
+| ⟦Tfloat⟧ | type float |
+| 200   | valeur |
+
+no words, no punctuation, only symbols and raw values.
 
 
 

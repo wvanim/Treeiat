@@ -23,9 +23,13 @@ This introduces ambiguity, structural errors, and hallucinations.
 
 Treeia-Token provides a **deterministic token stream** where everything is explicit:
 
-1. **STS-derived tokens** — every struct, parameter, and primitive type maps to a unique symbol.
-2. **Linear symbolic flow** — no words, no punctuation, no syntactic choices.
-3. **Self-delimited blocks** — clear structure, trivial parsing.
+1. **closed grammar**
+2. **schema-driven typing**
+3. **positional decoding**
+4. **bijection with STS**
+5. **STS-derived tokens** — every struct, parameter, and primitive type maps to a unique symbol.
+6. **Linear symbolic flow** — no words, no punctuation, no syntactic choices.
+7. **Self-delimited blocks** — clear structure, trivial parsing.
 
 The AI no longer guesses.
 It **reads**, **generates**, and **validates** a constrained token stream.

@@ -3,6 +3,7 @@
 
 Treeia-Token is an **AI-native symbolic format**, automatically derived from the Treeia-STS binary.
 It encodes structures, parameters, and primitive types as **PUA tokens**, with **no human text and no punctuation**.
+Its grammar is closed and schema-driven, enabling linear-time validation.
 
 ---
 
@@ -15,13 +16,13 @@ With textual formats (JSON, XML, free prompts), an AI must:
 * manage syntax
 * keep large context in memory
 
-This introduces ambiguity, structural errors, and hallucinations.
+This introduces ambiguity, structural errors, and structual hallucinations.
 
 ---
 
 ## **The Treeia-Token Approach**
 
-Treeia-Token provides a **deterministic token stream** where everything is explicit:
+Treeia-Token provides a deterministic token stream where all structure is dictated by STS schemas, not inferred from syntax:
 
 1. **closed grammar**
 2. **schema-driven typing**

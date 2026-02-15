@@ -88,6 +88,9 @@ In Treeia-Token:
 
 → a pure PUA token stream derived from the Treeia binary —
 no words, no punctuation, only symbols and raw values.
+```text
+⟦S1⟧ ⟦P0⟧ ⟦Tfloat⟧ 100 ⟦P1⟧ ⟦Tfloat⟧ 200
+```
 
 ---
 

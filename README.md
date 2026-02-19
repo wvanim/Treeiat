@@ -100,7 +100,9 @@ In Treeia-Token:
 
 no words, no punctuation, only symbols and raw values.
 
+---
 
+Treeia‑Token represents an exploration of how to eliminate ambiguity in AI data exchange. It is not yet a product, but a framework for discussion.
 
 
 

@@ -1,6 +1,6 @@
 
 # 🌐 **Treeia‑Token v1.0 — Spécification normatives**  
-### *Format symbolique IA‑natif dérivé automatiquement du binaire STS*
+### *Format symbolique dérivé automatiquement du binaire STS*
 
 ---
 
@@ -17,8 +17,7 @@ Il est entièrement dérivé de :
 Treeia‑Token est donc :
 
 - **bijectif** avec STS  
-- **déterministe**  
-- **IA‑natif**  
+- **déterministe**    
 - **sans texte humain**  
 - **sans ponctuation**  
 - **sans ambiguïté**  
@@ -257,7 +256,6 @@ Token ↔ STS ↔ Token
 ### ✔ Déterministe  
 Aucun choix syntaxique.
 
-### ✔ IA‑natif  
 Tokens courts, grammaire fermée.
 
 ### ✔ Neutre  
